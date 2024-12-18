@@ -1,0 +1,195 @@
+body {
+    font-family: "Cursed Timer ULiL", sans-serif;
+    text-align: center;
+    background-color: #1B244A;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#home-counter{
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    height: 120px;
+    width: 155px;
+    border-radius: 6px;
+    margin-top: -18px;
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+#guest-counter{
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    height: 120px;
+    width: 155px;
+    border-radius: 6px;
+    margin-top: -18px;
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+#new-game {
+    margin-top: 125px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-shadow: 0px 0px 1px black;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#display {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #F94F6D;
+}
+
+.stopwatch {
+    margin-top: 70px;
+}
+
+.stopwatch h3 {
+    font-size: 25px;
+}
+
+.stopwatch-btns {
+    font-family: "Cursed Timer ULiL", sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 9px;
+    border-radius: 8px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.stopwatch-btns:hover {
+    border: 2px solid gold;
+}
+
+#new-game:hover{
+    border: 2px solid gold;
+}
+.increment-btns {
+    font-family: "Cursed Timer ULiL", sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.increment-btns:hover {
+    border: 2px solid gold;
+}
+
+.btns {
+    margin-top: -17px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#foul {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    height: 50px;
+    width: 70px;
+    border-radius: 7px;
+    color: #F94F6D;
+}
+
+.foul-btns {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 8px;
+    color: white;
+    border-radius: 8px;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    cursor: pointer;
+    margin-top: -15px;
+}
+
+.foul-btns:hover {
+    border: 2px solid gold;
+}
+
+#period {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    height: 50px;
+    width: 70px;
+    border-radius: 7px;
+    color: #F94F6D;
+}
+
+.period-btns {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 8px;
+    color: white;
+    border-radius: 8px;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    cursor: pointer;
+    margin-top: -15px;
+}
+
+.period-btns:hover {
+    border: 2px solid gold;
+}
+/* 
+input {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border: none;
+    border-radius: 6px;
+    margin-top: -15px;
+    color: #F94F6D;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Cursed Timer ULiL", sans-serif;
+} */
