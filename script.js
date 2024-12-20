@@ -22,6 +22,36 @@ const removePeriod = document.querySelector("#periodRemove")
 const foulCounter = document.querySelector("#foul")
 const periodCounter = document.querySelector("#period")
 
+// function updateLead() {
+//     const homeScore = parseInt(document.querySelector("#home-counter").textContent, 10)
+//     const guestScore = parseInt(document.querySelector("#guest-counter").textContent, 10)
+
+//     const homeSection = document.querySelector("#home-section")
+//     const guestSection = document.querySelector("#guest-section")
+
+//     homeSection.classList.remove("leading")
+//     guestSection.classList.remove("leading")
+
+//     if(homeScore > guestScore) {
+//         homeSection.classList.add("leading")
+//     } else if (guestScore > homeScore) {
+//         guestSection.classList.add("leading")
+//     }
+// }
+
+// document.querySelectorAll("#add1, #add2, #add3").addEventListener("click", () => {
+//     const homeScore = document.querySelector("#home-counter")
+//     homeScore.textContent = parseInt(homeScore.textContent, 10) + 1
+//     updateLead();
+// });
+
+// document.querySelectorAll("#add1-g, #add2-g, #add3-g").addEventListener("click", () => {
+//     const guestScore = document.querySelector("#guest-counter")
+//     guestScore.textContent = parseInt(guestScore.textContent, 10) + 1
+//     updateLead();
+// })
+
+
 const formatTime = (time) => {
 // const hours = String(Math.floor(time / 3600)).padStart(2, "0"); Optional code (Note: if you want to uncomment it make sure to also add ${hours} in the return.)
     const minutes = String(Math.floor((time % 3600) / 60)).padStart(2, "0");

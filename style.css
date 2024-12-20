@@ -180,6 +180,11 @@ h2 {
 .period-btns:hover {
     border: 2px solid gold;
 }
+
+.team-section.leading {
+    border: 2px solid gold;
+    color: gold;
+}
 /* 
 input {
     width: 155px;
